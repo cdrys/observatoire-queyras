@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Patrimoine culturel et paysager — Observatoire PNR Queyras</title>
   <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
 </head>
 <body>
 
@@ -112,12 +113,16 @@
                ║          style="width:100%;height:500px;border:none">   ║
                ║  </iframe>                                              ║
                ╚══════════════════════════════════════════════════════════╝ -->
-          <div class="map-placeholder">
-            <div class="map-icon">🏛️</div>
-            <p>Carte interactive — Patrimoine culturel et paysager</p>
-            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS Online</p>
-            <code>src="https://arcg.is/VOTRE_ID_PATRIMOINE"</code>
-          </div>
+          <arcgis-embedded-map
+            style="height:500px; width:100%;"
+            item-id="ae969043281d45afbe99a1f120ab9062"
+            theme="light"
+            heading-enabled
+            legend-enabled
+            time-zone-label-enabled
+            extent="723410.0577444116,5551731.926068449,799999.960086055,5602256.801764883,102100"
+            portal-url="https://unistra.maps.arcgis.com">
+          </arcgis-embedded-map>
         </div>
       </div>
     </section>
