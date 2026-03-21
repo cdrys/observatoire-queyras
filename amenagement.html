@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aménagement du territoire — Observatoire PNR Queyras</title>
   <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
 </head>
 <body>
 
@@ -44,7 +45,7 @@
       <div class="section-line"></div>
       <div class="stats-grid fade-in">
         <div class="stat-card" style="border-top-color:var(--bleu-ciel);">
-          <div class="stat-value">34</div>
+          <div class="stat-value">15</div>
           <div class="stat-label">Communes</div>
         </div>
         <div class="stat-card" style="border-top-color:var(--bleu-ciel);">
@@ -121,12 +122,16 @@
                ║  - Routes et accès                                      ║
                ║  - Équipements touristiques                             ║
                ╚══════════════════════════════════════════════════════════╝ -->
-          <div class="map-placeholder">
-            <div class="map-icon">🏗️</div>
-            <p>Carte interactive — Aménagement du territoire</p>
-            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS Online</p>
-            <code>src="https://arcg.is/VOTRE_ID_AMENAGEMENT"</code>
-          </div>
+          <arcgis-embedded-map
+            style="height:500px; width:100%;"
+            item-id="7ecd8240e781426290216655fb91750b"
+            theme="light"
+            heading-enabled
+            legend-enabled
+            time-zone-label-enabled
+            extent="724801.0188402632,5551232.937167421,801390.9211819066,5601757.812863855,102100"
+            portal-url="https://unistra.maps.arcgis.com">
+          </arcgis-embedded-map>
         </div>
       </div>
     </section>
