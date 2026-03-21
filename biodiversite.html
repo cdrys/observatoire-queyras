@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Patrimoine naturel et biodiversité — Observatoire PNR Queyras</title>
   <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
 </head>
 <body>
 
@@ -122,12 +123,16 @@
                ║  - Réservoirs de biodiversité                           ║
                ║  - Cours d'eau                                          ║
                ╚══════════════════════════════════════════════════════════╝ -->
-          <div class="map-placeholder">
-            <div class="map-icon">🌿</div>
-            <p>Carte interactive — Zonages de biodiversité</p>
-            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS Online</p>
-            <code>src="https://arcg.is/VOTRE_ID_BIODIVERSITE"</code>
-          </div>
+          <arcgis-embedded-map
+            style="height:500px; width:100%;"
+            item-id="d94dc829e06846c99be65149bda9f57d"
+            theme="light"
+            heading-enabled
+            legend-enabled
+            time-zone-label-enabled
+            extent="724464.006079396,5551341.841779909,801053.9084210393,5601866.717476343,102100"
+            portal-url="https://unistra.maps.arcgis.com">
+          </arcgis-embedded-map>
         </div>
       </div>
       <p style="font-size:0.82rem; color:var(--texte-leger); margin-top:0.75rem;">
