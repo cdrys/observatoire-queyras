@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrimoine culturel et paysager — Observatoire PNR Queyras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">
+    <span>Observatoire du Territoire</span>
+    <span class="badge">PNR Queyras</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="geographie.html">Géographie</a></li>
+    <li><a href="patrimoine.html">Patrimoine culturel</a></li>
+    <li><a href="biodiversite.html">Biodiversité</a></li>
+    <li><a href="amenagement.html">Aménagement</a></li>
+  </ul>
+</nav>
+
+<header class="hero" style="background: linear-gradient(160deg, #4A3A1C 0%, #7A5C2A 50%, #C8922A 100%);">
+  <div class="hero-bg" style="background-image: radial-gradient(ellipse at 60% 40%, rgba(200,146,42,0.3) 0%, transparent 60%);">
+  </div>
+  <svg class="hero-mountains" viewBox="0 0 1440 200" preserveAspectRatio="none" fill="white">
+    <path d="M0,200 L0,160 L100,110 L200,160 L320,80 L440,140 L560,60 L680,130 L800,70 L920,140 L1040,50 L1160,110 L1280,60 L1440,100 L1440,200 Z"/>
+  </svg>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Thématique 2</p>
+    <h1>Patrimoine culturel et paysager</h1>
+    <p class="hero-subtitle">Villages perchés, cadrans solaires, architecture vernaculaire et paysages sculptés par des siècles de vie en altitude.</p>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <!-- CHIFFRES CLÉS PATRIMOINE -->
+    <section class="section">
+      <p class="section-title">Chiffres clés</p>
+      <div class="section-line"></div>
+      <div class="stats-grid fade-in">
+        <div class="stat-card" style="border-top-color:var(--ocre);">
+          <div class="stat-value">+100</div>
+          <div class="stat-label">Cadrans solaires recensés</div>
+        </div>
+        <div class="stat-card" style="border-top-color:var(--ocre);">
+          <div class="stat-value">34</div>
+          <div class="stat-label">Communes au patrimoine bâti remarquable</div>
+        </div>
+        <div class="stat-card" style="border-top-color:var(--ocre);">
+          <div class="stat-value">3</div>
+          <div class="stat-label">Sites inscrits aux monuments historiques</div>
+        </div>
+        <div class="stat-card" style="border-top-color:var(--ocre);">
+          <div class="stat-value">4</div>
+          <div class="stat-label">Secteurs paysagers identifiés</div>
+        </div>
+      </div>
+      <span class="source-tag">Sources : PNR Queyras, Ministère de la Culture — Mérimée</span>
+    </section>
+
+    <!-- PRÉSENTATION TEXTUELLE -->
+    <section class="section fade-in">
+      <p class="section-title">Un patrimoine façonné par la montagne</p>
+      <div class="section-line"></div>
+      <div class="content-split">
+        <div>
+          <p>Le Queyras est l'un des territoires alpins les mieux préservés de France. Son isolement géographique historique a conduit au développement d'une culture locale forte, d'une architecture adaptée aux conditions extrêmes d'altitude et d'un rapport particulier à la nature et au temps.</p>
+          <p>La <strong>maison queyrassine</strong> en est le symbole le plus visible : haute bâtisse en bois et pierre, intégrant sous un même toit le logement, l'étable et le grenier à foin, optimisée pour résister aux longs hivers et aux charges neigeuses importantes.</p>
+          <p>Le Queyras est également la <strong>"terre des cadrans solaires"</strong> : on en recense plus d'une centaine sur les façades des maisons et des édifices religieux, héritage d'une tradition artisanale et astronomique exceptionnelle.</p>
+        </div>
+        <div>
+          <h3 style="color:var(--vert-foret); margin-bottom:0.75rem;">Les secteurs paysagers</h3>
+          <ul class="heritage-list">
+            <li>
+              <span class="icon">🏔️</span>
+              <div><strong>La haute vallée du Guil</strong><span>Axe structurant du territoire, de Guillestre à Abriès, avec ses villages typiques en adret.</span></div>
+            </li>
+            <li>
+              <span class="icon">🌄</span>
+              <div><strong>Le Haut Queyras</strong><span>Paysages ouverts d'altitude, avec Ristolas et les alpages jusqu'au Col Agnel.</span></div>
+            </li>
+            <li>
+              <span class="icon">🏘️</span>
+              <div><strong>Le Cristillan</strong><span>Vallon sauvage de Ceillac, dominé par la Tête de Toillies et ses lacs de montagne.</span></div>
+            </li>
+            <li>
+              <span class="icon">⛪</span>
+              <div><strong>La Vallouise et le Vars</strong><span>Zones de transition avec les PNR voisins, riches en patrimoine religieux.</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTE INTERACTIVE -->
+    <section class="section fade-in">
+      <p class="section-title">Carte du patrimoine culturel</p>
+      <div class="section-line"></div>
+      <p>Explorez les sites patrimoniaux du Queyras : monuments historiques, cadrans solaires, édifices religieux, villages remarquables et points de vue paysagers.</p>
+
+      <div class="map-block">
+        <div class="map-label">Carte interactive ArcGIS Online</div>
+        <div class="map-iframe-wrapper">
+          <!-- ╔══════════════════════════════════════════════════════════╗
+               ║  REMPLACER PAR VOTRE LIEN ARCGIS PATRIMOINE CULTUREL   ║
+               ║  <iframe src="https://arcg.is/VOTRE_ID"                 ║
+               ║          style="width:100%;height:500px;border:none">   ║
+               ║  </iframe>                                              ║
+               ╚══════════════════════════════════════════════════════════╝ -->
+          <div class="map-placeholder">
+            <div class="map-icon">🏛️</div>
+            <p>Carte interactive — Patrimoine culturel et paysager</p>
+            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS Online</p>
+            <code>src="https://arcg.is/VOTRE_ID_PATRIMOINE"</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATRIMOINE BÂTI EN DETAIL -->
+    <section class="section fade-in">
+      <p class="section-title">Focus : l'architecture vernaculaire queyrassine</p>
+      <div class="section-line"></div>
+      <p>L'habitat traditionnel du Queyras constitue l'un des patrimoines architecturaux les plus cohérents des Alpes du Sud. Plusieurs éléments le caractérisent :</p>
+      <ul class="heritage-list">
+        <li>
+          <span class="icon">🪵</span>
+          <div><strong>Le bois de mélèze</strong><span>Matériau omniprésent, utilisé pour les façades, les balcons et les greniers. Sa couleur argentée caractérise le paysage des villages.</span></div>
+        </li>
+        <li>
+          <span class="icon">☀️</span>
+          <div><strong>Les cadrans solaires</strong><span>Plus de 100 cadrans peints sur les façades, souvent accompagnés de sentences morales ou philosophiques. Un art populaire unique en Europe.</span></div>
+        </li>
+        <li>
+          <span class="icon">⛩️</span>
+          <div><strong>Les chapelles et oratoires</strong><span>Jalons du paysage, ils ponctuent les chemins de transhumance et témoignent d'une foi populaire ancrée dans le territoire.</span></div>
+        </li>
+        <li>
+          <span class="icon">🏰</span>
+          <div><strong>Le Fort Queyras</strong><span>Édifice emblématique de Château-Ville-Vieille, remanié par Vauban au XVIIe siècle, dominant la cluse du Guil depuis son éperon rocheux.</span></div>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <p>Observatoire du Territoire du PNR du Queyras &mdash; Réalisé dans le cadre du Master 2 OTG, Université de Strasbourg</p>
+  <p style="margin-top:0.5rem;"><a href="https://www.pnr-queyras.fr" target="_blank">Site officiel du PNR du Queyras</a></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

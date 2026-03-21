@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Géographie du territoire — Observatoire PNR Queyras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">
+    <span>Observatoire du Territoire</span>
+    <span class="badge">PNR Queyras</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="geographie.html">Géographie</a></li>
+    <li><a href="patrimoine.html">Patrimoine culturel</a></li>
+    <li><a href="biodiversite.html">Biodiversité</a></li>
+    <li><a href="amenagement.html">Aménagement</a></li>
+  </ul>
+</nav>
+
+<header class="hero" style="background: linear-gradient(160deg, #1C3554 0%, #2A4A1E 55%, #3E6B2F 100%);">
+  <div class="hero-bg"></div>
+  <svg class="hero-mountains" viewBox="0 0 1440 200" preserveAspectRatio="none" fill="white">
+    <path d="M0,200 L0,140 L60,80 L140,150 L240,50 L360,120 L480,30 L600,110 L720,60 L840,130 L960,20 L1080,100 L1200,40 L1320,90 L1440,20 L1440,200 Z"/>
+  </svg>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Thématique 1</p>
+    <h1>Géographie du territoire</h1>
+    <p class="hero-subtitle">Relief exceptionnel, réseau hydrographique dense et paysages alpins d'altitude : portrait géographique du plus haut PNR de France.</p>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <!-- CHIFFRES CLÉS -->
+    <section class="section">
+      <p class="section-title">Chiffres clés</p>
+      <div class="section-line"></div>
+
+      <div class="stats-grid fade-in">
+        <div class="stat-card">
+          <div class="stat-value">60 600<span class="stat-unit"> ha</span></div>
+          <div class="stat-label">Superficie totale</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">~2 800</div>
+          <div class="stat-label">Habitants permanents</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">34</div>
+          <div class="stat-label">Communes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">3 841<span class="stat-unit"> m</span></div>
+          <div class="stat-label">Point culminant (Pic de Rochebrune)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">1 100<span class="stat-unit"> m</span></div>
+          <div class="stat-label">Altitude minimale</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">~1 800<span class="stat-unit"> m</span></div>
+          <div class="stat-label">Altitude moyenne</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">~700<span class="stat-unit"> km</span></div>
+          <div class="stat-label">Sentiers de randonnée</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">4</div>
+          <div class="stat-label">Grands secteurs paysagers</div>
+        </div>
+      </div>
+      <span class="source-tag">Sources : PNR Queyras, IGN, INSEE</span>
+    </section>
+
+    <!-- STORY MAP -->
+    <section class="section fade-in">
+      <p class="section-title">Story Map — Voyage dans le Queyras</p>
+      <div class="section-line"></div>
+      <p>Cette Story Map vous guide à travers les grandes entités géographiques du Queyras : du fond de vallée de la Durance aux hauts plateaux du Guil, en passant par les cols emblématiques et les villages perchés.</p>
+
+      <div class="map-block">
+        <div class="map-label">ArcGIS StoryMaps</div>
+        <div class="map-iframe-wrapper">
+          <!-- ╔══════════════════════════════════════════════════════════╗
+               ║  REMPLACER L'URL CI-DESSOUS PAR VOTRE LIEN STORYMAPS   ║
+               ║  Exemple :                                              ║
+               ║  <iframe src="https://arcg.is/VOTRE_ID"></iframe>       ║
+               ╚══════════════════════════════════════════════════════════╝ -->
+          <div class="map-placeholder">
+            <div class="map-icon">🗺️</div>
+            <p>Story Map — Voyage dans le Queyras</p>
+            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS StoryMaps</p>
+            <code>src="https://arcg.is/VOTRE_ID_STORYMAP"</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP TOUR -->
+    <section class="section fade-in">
+      <p class="section-title">MapTour — Les lieux emblématiques</p>
+      <div class="section-line"></div>
+      <p>Explorez le territoire en cliquant sur les points d'intérêt géolocalisés : cols, villages, lacs et sommets qui font l'identité du Queyras.</p>
+
+      <div class="map-block">
+        <div class="map-label">ArcGIS MapTour</div>
+        <div class="map-iframe-wrapper">
+          <!-- ╔══════════════════════════════════════════════════════════╗
+               ║  REMPLACER L'URL CI-DESSOUS PAR VOTRE LIEN MAPTOUR     ║
+               ╚══════════════════════════════════════════════════════════╝ -->
+          <div class="map-placeholder">
+            <div class="map-icon">📍</div>
+            <p>MapTour — Lieux emblématiques du Queyras</p>
+            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS MapTour</p>
+            <code>src="https://arcg.is/VOTRE_ID_MAPTOUR"</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="section fade-in">
+      <p class="section-title">Dashboard — Tableau de bord du territoire</p>
+      <div class="section-line"></div>
+      <p>Ce tableau de bord synthétise les indicateurs clés du PNR : répartition de la population par commune, occupation des sols, données altitudinales et réseau hydrographique.</p>
+
+      <div class="map-block">
+        <div class="map-label">ArcGIS Dashboard</div>
+        <div class="map-iframe-wrapper">
+          <!-- ╔══════════════════════════════════════════════════════════╗
+               ║  REMPLACER L'URL CI-DESSOUS PAR VOTRE LIEN DASHBOARD   ║
+               ╚══════════════════════════════════════════════════════════╝ -->
+          <div class="map-placeholder" style="height:560px;">
+            <div class="map-icon">📊</div>
+            <p>Dashboard — Indicateurs clés du Queyras</p>
+            <p style="font-weight:300; font-size:0.82rem;">Remplacez ce bloc par votre iframe ArcGIS Dashboard</p>
+            <code>src="https://arcg.is/VOTRE_ID_DASHBOARD"</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRÉSENTATION GÉOGRAPHIQUE TEXTUELLE -->
+    <section class="section fade-in">
+      <p class="section-title">Le Queyras en quelques mots</p>
+      <div class="section-line"></div>
+      <div class="content-split">
+        <div>
+          <h3 style="color:var(--vert-foret); margin-bottom:0.75rem;">Un territoire d'altitude exceptionnel</h3>
+          <p>Le PNR du Queyras est le plus haut Parc Naturel Régional de France. Situé dans le département des Hautes-Alpes (05), il occupe la haute vallée du Guil et ses affluents, à la frontière avec l'Italie (Piémont). Son territoire s'étend sur environ 60 600 hectares, entre 1 100 et 3 841 mètres d'altitude.</p>
+          <p>Créé en 1977, le parc regroupe 34 communes et compte environ 2 800 habitants permanents, une densité extrêmement faible qui témoigne de la rudesse des conditions de vie en haute montagne.</p>
+        </div>
+        <div>
+          <h3 style="color:var(--vert-foret); margin-bottom:0.75rem;">Un réseau hydrographique structurant</h3>
+          <p>Le Guil, principal cours d'eau du territoire, draine l'ensemble du bassin versant depuis les sources près du Col Agnel jusqu'à sa confluence avec la Durance à Guillestre. Ses affluents — le Cristillan, l'Aigue Blanche, l'Aigue Agnelle — irriguent les vallons latéraux et alimentent de nombreux lacs d'altitude.</p>
+          <p>Ce réseau hydrographique dense est un facteur structurant du territoire, conditionnant l'implantation des villages, les axes de communication et les activités économiques traditionnelles.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <p>Observatoire du Territoire du PNR du Queyras &mdash; Réalisé dans le cadre du Master 2 OTG, Université de Strasbourg</p>
+  <p style="margin-top:0.5rem;"><a href="https://www.pnr-queyras.fr" target="_blank">Site officiel du PNR du Queyras</a></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
