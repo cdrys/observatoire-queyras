@@ -116,7 +116,6 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  background: linear-gradient(160deg, var(--bleu-nuit) 0%, var(--vert-foret) 60%, var(--vert-montagne) 100%);
 }
 
 .hero-bg {
