@@ -157,7 +157,7 @@ a:hover { text-decoration: underline; }
   color: var(--blanc);
   margin-bottom: 1rem;
   font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 16px rgba(0,0,0,0.7), 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .hero-subtitle {
@@ -166,11 +166,11 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
   max-width: 600px;
   margin-bottom: 0;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 10px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.4);
 }
 
 .hero-eyebrow {
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.6);
 }
 
 /* ── MAIN CONTAINER ─────────────────────────────────────── */
