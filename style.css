@@ -156,14 +156,21 @@ a:hover { text-decoration: underline; }
 .hero h1 {
   color: var(--blanc);
   margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .hero-subtitle {
-  color: rgba(245,242,236,0.85);
+  color: #ffffff;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 700;
   max-width: 600px;
   margin-bottom: 0;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+}
+
+.hero-eyebrow {
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 
 /* ── MAIN CONTAINER ─────────────────────────────────────── */
