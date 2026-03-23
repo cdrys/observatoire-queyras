@@ -119,6 +119,21 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
+/* Waves at bottom of hero */
+.hero-waves {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  line-height: 0;
+}
+
+.hero-waves svg {
+  display: block;
+  width: 100%;
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
