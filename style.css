@@ -116,13 +116,13 @@ a:hover { text-decoration: underline; }
   min-height: 480px;
   display: flex;
   align-items: flex-end;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Waves at bottom of hero */
 .hero-waves {
   position: absolute;
-  bottom: -1px;
+  bottom: -40px;
   left: 0;
   width: 100%;
   z-index: 3;
