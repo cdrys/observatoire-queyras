@@ -3,13 +3,13 @@
    Charte graphique alpine & éditoriale
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 
 :root {
-  --vert-foret:    #2A4A1E;
-  --vert-montagne: #3E6B2F;
-  --vert-clair:    #6B9A52;
+  --vert-foret:    #1A5C32;
+  --vert-montagne: #1A6B3C;
+  --vert-clair:    #4E9A6A;
   --bleu-ciel:     #5B8DB8;
   --bleu-nuit:     #1C3554;
   --ocre:          #C8922A;
@@ -30,7 +30,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: var(--texte);
   background: var(--creme);
