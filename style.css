@@ -160,12 +160,13 @@ a:hover { text-decoration: underline; }
 }
 
 .hero-eyebrow {
-  color: var(--ocre);
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-bottom: 0.75rem;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.6);
 }
 
 .hero h1 {
@@ -207,7 +208,7 @@ a:hover { text-decoration: underline; }
 .section-line {
   width: 48px;
   height: 3px;
-  background: var(--ocre);
+  background: var(--accent, var(--ocre));
   margin-bottom: 1.5rem;
   border-radius: 2px;
 }
@@ -303,7 +304,7 @@ a:hover { text-decoration: underline; }
   padding: 1.5rem 1rem;
   text-align: center;
   box-shadow: var(--ombre);
-  border-top: 3px solid var(--vert-clair);
+  border-top: 3px solid var(--accent, var(--vert-clair));
   transition: var(--transition);
 }
 
@@ -383,7 +384,7 @@ a:hover { text-decoration: underline; }
   padding: 1rem 1.25rem;
   border-radius: var(--radius);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  border-left: 3px solid var(--vert-clair);
+  border-left: 3px solid var(--accent, var(--vert-clair));
 }
 
 .heritage-list li .icon {
