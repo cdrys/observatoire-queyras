@@ -250,12 +250,8 @@ a:hover { text-decoration: underline; }
 .map-iframe-wrapper iframe {
   display: block;
   width: 100%;
-  min-height: 500px;
+  height: 500px;
   border: none;
-}
-
-.map-iframe-wrapper iframe[style] {
-  height: revert !important;
 }
 
 /* Placeholder visuel quand pas encore de lien */
