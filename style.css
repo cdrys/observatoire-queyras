@@ -3,7 +3,7 @@
    Charte graphique alpine & éditoriale
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 
 :root {
@@ -12,8 +12,8 @@
   --vert-clair:    #33b995;
   --bleu-ciel:     #5B8DB8;
   --bleu-nuit:     #1C3554;
-  --ocre:          #C8922A;
-  --creme:         #F5F2EC;
+  --ocre:          #f0a759;
+  --creme:         #ffffff;
   --blanc:         #FFFFFF;
   --gris-doux:     #E8E4DC;
   --texte:         #2C2C2C;
@@ -30,7 +30,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: var(--texte);
   background: var(--creme);
@@ -39,7 +39,7 @@ body {
 
 /* ── TYPOGRAPHIE ─────────────────────────────────────────── */
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.2;
 }
 h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
@@ -68,7 +68,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 0.75rem;
   color: var(--creme);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -310,7 +310,7 @@ a:hover { text-decoration: underline; }
 .stat-card:hover { transform: translateY(-3px); }
 
 .stat-value {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: var(--vert-foret);
